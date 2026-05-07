@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Marah Taweel — Web Development Portfolio</title>
+  <meta name="description" content="Marah Taweel's web development portfolio showcasing responsive and modern web applications.">
+  <link rel="stylesheet" href="../dist/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="body">
+
+ 
+  <header class="header" id="header" role="banner">
+    <nav class="header__nav" aria-label="Primary navigation">
+      <h2 class="header__logo">
+        <a href="#main" class="header__logo-link" aria-label="Marah Taweel — back to top">Marah</a>
+      </h2>
+      <ul class="header__menu" role="list">
+        <li class="header__item">
+          <a href="#latest-projects" class="header__link">Projects</a>
+        </li>
+        <li class="header__item">
+          <a href="#skills" class="header__link">Skills</a>
+        </li>
+        <li class="header__item">
+          <a href="resume.pdf" class="header__link" aria-label="Download resume PDF">Resume</a>
+        </li>
+        <li class="header__item">
+          <a href="#contact" class="header__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+   
+    <section id="bio" class="bio" aria-labelledby="bio-title">
+      <div class="bio__container">
+        <img
+          src="imgs/profile.png"
+          alt="Cartoon photo of Marah Taweel"
+          class="bio__image"
+        >
+        <div class="bio__content">
+          <h1 class="bio__title" id="bio-title">Marah Taweel's<br>Web Development Portfolio</h1>
+          <p class="bio__text">
+            I am a web developer passionate about building responsive
+            and modern web applications using HTML, CSS, JavaScript,
+            and backend technologies.
+          </p>
+          <div class="bio__buttons">
+            <a href="#latest-projects" class="btn btn--primary">View Projects</a>
+            <a href="#contact" class="btn btn--secondary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="skills" class="skills" aria-labelledby="skills-title">
+      <div class="skills__inner">
+        <h2 class="skills__title" id="skills-title">Skills</h2>
+        <ul class="skills__grid reveal" role="list">
+          <li class="skill-chip">
+            <span class="skill-chip__icon" aria-hidden="true">🌐</span>
+            <span class="skill-chip__name">HTML</span>
+          </li>
+          <li class="skill-chip">
+            <span class="skill-chip__icon" aria-hidden="true">🎨</span>
+            <span class="skill-chip__name">CSS / SCSS</span>
+          </li>
+          <li class="skill-chip">
+            <span class="skill-chip__icon" aria-hidden="true">⚡</span>
+            <span class="skill-chip__name">JavaScript</span>
+          </li>
+          <li class="skill-chip">
+            <span class="skill-chip__icon" aria-hidden="true">🐍</span>
+            <span class="skill-chip__name">Python / Flask</span>
+          </li>
+          <li class="skill-chip">
+            <span class="skill-chip__icon" aria-hidden="true">🗄️</span>
+            <span class="skill-chip__name">MySQL</span>
+          </li>
+          <li class="skill-chip">
+            <span class="skill-chip__icon" aria-hidden="true">📱</span>
+            <span class="skill-chip__name">Responsive Design</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="latest-projects" class="latest-projects" aria-labelledby="projects-title">
+      <h2 class="latest-projects__title" id="projects-title">Latest Projects</h2>
+
+      <div class="latest-projects__grid">
+<article class="card reveal">
+  <img src="imgs/OIP.webp" alt="Database system project screenshot" class="card__image">
+  <div class="card__body">
+    <h3 class="card__title">Database System Project</h3>
+    <p class="card__description">
+      Designed and implemented a relational database system using SQL as part of a university
+      project. Applied data modeling, normalization, and query optimization techniques to
+      create an efficient and structured database solution.
+    </p>
+    <a href="https://github.com/marah4taweel-pixel/database-izihman.git" target="_blank" class="card__link">
+      View on GitHub →
+    </a>
+  </div>
+</article>
+<article class="card reveal">
+  <img src="imgs/Gemini_Generated_Image_psudk4psudk4psud.png" alt="Online exam system screenshot" class="card__image">
+  <div class="card__body">
+    <h3 class="card__title">Online Exam System</h3>
+    <p class="card__description">
+      Built a full-stack online examination platform using ASP.NET and SQL. Implemented user
+      authentication, timed exams, dynamic question rendering, instant grading, and an admin
+      dashboard for managing exams and student results.
+    </p>
+    <a href="https://github.com/marah4taweel-pixel/onlineExam-ASP.net.git" target="_blank" class="card__link">
+      View on GitHub →
+    </a>
+  </div>
+</article>
+
+      </div>
+
+      <div class="latest-projects__button">
+        <a href="#" class="btn btn--primary">View All Projects</a>
+      </div>
+    </section>
+
+  
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="contact__inner">
+        <h2 class="contact__title" id="contact-title">Get In Touch</h2>
+        <p class="contact__text">
+          Have a project in mind or want to collaborate? I'd love to hear from you.
+        </p>
+        <a href="mailto:marah@example.com" class="btn btn--primary reveal" aria-label="Send Marah an email">
+          Say Hello →
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+ 
+  <footer class="footer" role="contentinfo">
+    <p class="footer__text">© Marah Taweel 2026</p>
+    <nav aria-label="Social links">
+      <ul class="footer__links" role="list">
+        <li><a href="https://github.com/marah4taweel-pixel?tab=repositories" class="footer__link" target="_blank" rel="noopener noreferrer" aria-label="Marah Taweel on GitHub">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/marah-taweel-5497272a5?utm_source=share_via&utm_content=profile&utm_medium=member_ios" class="footer__link" target="_blank" rel="noopener noreferrer" aria-label="Marah Taweel on LinkedIn">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </footer>
+ 
+  <script>
+    
+    // ── Shrink header on scroll
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('header--scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    // ── Reveal on scroll
+    const revealObserver = new IntersectionObserver(
+      (entries) => entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('reveal--visible');
+          revealObserver.unobserve(entry.target);
+        }
+      }),
+      { threshold: 0.12, rootMargin: '0px 0px -50px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // ── Active nav link highlight on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.header__link');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 120) current = s.id;
+      });
+      navLinks.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${current}`;
+        link.classList.toggle('header__link--active', isActive);
+      });
+    }, { passive: true });
+  </script>
+  
+</body>
+</html>

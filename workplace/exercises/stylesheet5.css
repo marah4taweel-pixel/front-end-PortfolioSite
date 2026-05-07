@@ -1,0 +1,71 @@
+* {
+  font-weight: normal;
+  font-size: medium;
+}
+
+body {
+  background-color: #ccf1ff;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #bbeafc;
+
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.signup-form {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #bbeafc;
+
+  font-family: Tahoma, sans-serif;
+
+  
+}
+
+.form-title {
+  margin-bottom: 10px;
+  color: brown;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.input-field {
+  border: 2px solid #ccc;
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 95%;
+
+  color: darkgreen;
+
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+
+  color: blueviolet;
+}
+
+.submit-btn:hover {
+    background-color: black;
+}
+
+.input-field:valid{
+    background-color: azure;
+}
+
+.input-field:invalid{
+    background-color: chartreuse;
+}
+
+.input-field:focus{
+    background-color: #FDD;
+}

@@ -1,0 +1,71 @@
+// COLORS
+$primary-color: #2563eb;
+$secondary-color: #111827;
+$accent-color: #f59e0b;
+
+$text-color: #1f2937;
+$text-light: #6b7280;
+
+$background-color: #ffffff;
+$section-bg: #f9fafb;
+
+
+// TYPOGRAPHY
+$font-main: 'Lato', sans-serif;
+
+$font-size-sm: 0.875rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 2rem;
+
+
+// SPACING
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 2rem;
+$spacing-lg: 4rem;
+
+
+// BREAKPOINTS
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+// ALIASES — match generated block files
+$color-bg: $background-color;
+$color-surface: #16161a;
+$color-surface-alt: #1e1e24;
+$color-primary: $primary-color;
+$color-primary-hover: darken($primary-color, 8%);
+$color-secondary: $secondary-color;
+$color-text: $text-color;
+$color-text-muted: $text-light;
+$color-border: rgba(0, 0, 0, 0.08);
+$color-card-bg: $section-bg;
+$font-body: $font-main;
+$font-size-2xl: $font-size-xl;
+$font-size-3xl: 3rem;
+$font-size-4xl: 4.5rem;
+$font-size-5xl: 7rem;
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-2xl: 3rem;
+$spacing-3xl: 4rem;
+$spacing-4xl: 6rem;
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 16px;
+$border-radius-full: 9999px;
+$transition-fast: 0.15s ease;
+$transition-base: 0.3s ease;
+$transition-slow: 0.6s ease;
+$max-width: 1200px;
+$nav-height: 80px;
+$nav-height-scrolled: 56px;
+$bp-mobile: $mobile;
+$bp-tablet: $tablet;
+$bp-desktop: $desktop;
+$bp-wide: 1280px;

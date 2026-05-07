@@ -1,0 +1,28 @@
+@use '../utils/utils' as *;
+
+.contact {
+  padding: $spacing-lg $spacing-sm;
+  margin-bottom: $spacing-lg;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &__title {
+    font-size: $font-size-xl;
+    font-weight: 700;
+    color: $text-color;
+  }
+
+  &__text {
+    font-size: $font-size-base;
+    color: $text-light;
+    line-height: 1.7;
+  }
+
+  @include mobile {
+    padding: $spacing-sm;
+  }
+}
